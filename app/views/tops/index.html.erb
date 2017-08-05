@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>TADAGENIC</title>
+</head>
+
+<body>
+<header>
+    <%= image_tag "TADAGENIC.png", class: "logo-img" %>
+  <div class="header-right">
+    <li><a href = "#what-is">TADAGENICとは？</a></li>
+    <li><a href = "#how-to">使い方</a></li>
+    <li><a href="#to-get">商品をもらうために...</a></li>
+  </div>
+</header>
+
+<article>
+  <div class = "top-wrapper">
+    <div class="container-top">
+     <%= image_tag "web-top-img.png", class: 'main-img' %>
+     <%= image_tag "iphone-top-img.svg", class: "main-img-ios" %>
+     <%= link_to "事前登録する", new_top_path, class: "pre-signUp", remote: true %>
+     <div class="explain-pre-signUp">
+       事前登録をすればリリースの際、<span class="br-2">ご登録頂いた</span>ご連絡先にいち早く<span class = "br">お知らせ</span>が届きます。
+     </div>
+    </div>
+  </div>
+  <div class = "content">
+    <div class="container">
+      <div class="what-is">
+         <div class = "title first-title" id="what-is">
+            What is TADAGENIC ?
+         </div>
+         <div class="explain-text first-explain">
+           TADAGENICはタダでフォトジェニックな商品がもらえるアプリです。<br>
+           コスメ、ファッション、食品、イベントなど色んなフォトジェニックなものがタダでもらえます。<br>
+           あなたのInstagramアカウントが、商品をもらうカギになります。
+         </div>
+       </div>
+       <div class="how-to">
+         <div class="title second-title" id="how-to">
+            How To Use
+         </div>
+         <div class="explain-text second-explain">
+           <li class="left-end">Instagramアカウントで簡単登録</li>
+           <li class="middle">欲しい商品を右にスワイプ</li>
+           <li class="right-end" >商品がもらえる</li>
+         </div>
+         <div class="clear"></div>
+         <div class="how-to-img">
+           <%= image_tag "hand-1148981_1280.png", class: "hand-phone" %>
+           <%= image_tag "arrow.svg", class: "arrow" %>
+           <%= image_tag "ios-preview.svg", class: "ios-preview" %>
+           <%= image_tag "arrow-2.svg", class: "arrow-2" %>
+           <%= image_tag "box-2339368_1280.png", class: "giftBox" %>
+         </div>
+         <div class="clear"></div>
+         <%= image_tag "how-to-img.svg", class: "how-to-img-ios" %>
+         </div>
+         <div class = "to-get" id="to-get">
+            <div class="title third-title">
+              To Get Products More...
+            </div>
+            <div class="explain-text first-explain">
+              商品を受け取ったら良いと感じたらInstagramでシェア、悪いと感じたら<br>
+              商品の感想を送ると次の商品がもらいやすくなります。
+            </div>
+             <%= image_tag "groop4.svg", class: "to-get-img" %>
+             <%= image_tag "to-get-img-ios.svg", class: "to-get-img-ios" %>
+         </div>
+       </div>
+    </div>
+</article>
+
+<footer>
+
+</footer>
+
+</body>
+</html>

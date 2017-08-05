@@ -1,0 +1,310 @@
+
+// // webやipadのレスポンス
+// @media(min-width: 670px) and (max-width: 1000px){
+
+//   .container{
+//     padding:0 25px;
+//   }
+//   .container-web{
+//     display: display;
+//   }
+
+//   .container-ios{
+//     display: none;
+//   }
+//   .container-top{
+//     padding: 0 25px;
+//   }
+//   .logo-img{
+//     width:150px;
+//     display: block;
+//     margin: 0 auto;
+//     padding:10px 0 5px 0;
+//   }
+//   .header-right{
+//     display: none;
+//   }
+
+//   .pre-signUp{
+//     bottom: 70px;
+//     left: 120px;
+//     font-size: 20px;
+//   }
+//   .pre-signUp:hover{
+//     color: #777;
+//     background:#fafad2;
+//   }
+//   .sign_up1{
+//     position: absolute;
+//     bottom: 200px;
+//     left: 120px;
+//     color: white;
+//     background-color: transparent;
+//     font-size: 15px;
+//     border: 3px solid #ffffff;
+//     border-radius: 60px;
+//     padding:3px 100px;
+//   }
+//   .sign_up1::-webkit-input-placeholder{
+//     color: white;
+//   }
+//   .sign_up2{
+//     position: absolute;
+//     bottom: 160px;
+//     left: 120px;
+//     color: white;
+//     background-color: transparent;
+//     font-size: 15px;
+//     border: 3px solid #ffffff;
+//     border-radius: 60px;
+//     padding:3px 100px;
+//   }
+//   .sign_up2::-webkit-input-placeholder{
+//     color: white;
+//   }
+//   .sign_up3{
+//     position: absolute;
+//     bottom: 120px;
+//     left: 120px;
+//     color: white;
+//     background-color: transparent;
+//     font-size: 15px;
+//     border: 3px solid #ffffff;
+//     border-radius: 60px;
+//     padding:3px 100px;
+//   }
+//   .sign_up3::-webkit-input-placeholder{
+//     color: white;
+//   }
+//   .submit{
+//     position: absolute;
+//     bottom: 70px;
+//     left: 120px;
+//     color: white;
+//     background-color: transparent;
+//     font-size: 20px;
+//     border: 3px solid #ffffff;
+//     border-radius: 60px;
+//     padding:3px 100px;
+//   }
+//   .submit:hover{
+//     color: #777;
+//     border-radius: 60px;
+//     background:#fafad2;
+//   }
+//   .explain-pre-signUp{
+//     bottom: 40px;
+//     left: 130px;
+//     font-size: 10px;
+//   }
+//   .br::before {
+//     content: "\A" ;
+//     white-space: pre ;
+//   }
+//   .title{
+//     font-size: 30px;
+//     padding: 45px 0 20px 0;
+//   }
+//   .explain-text{
+//     font-size: 15px;
+//   }
+//   .left-end{
+//     right:5px;
+//   }
+//   .right-end{
+//     left:10px;
+//   }
+//   .arrow{
+//     width:12%;
+//     position: relative;
+//     top: 80px;
+//   }
+//   .arrow-2{
+//     width:12%;
+//     position: relative;
+//     top: 65px;
+//   }
+//   .how-to-img{
+//     margin:0;
+//   }
+//   .how-to-img img{
+//   float: left;
+//   padding:0 10px;
+//   }
+//   .hand-phone{
+//     width:30%;
+//   }
+//   .ios-preview{
+//     width:15%;
+//     position: relative;
+//     top: 10px;
+//   }
+//   .giftBox{
+//     width:30%;
+//   }
+//   .to-get-img{
+//     padding: 40px 80px;
+//   }
+
+//     // ##フラッシュメッセージ
+//   .flash-message-alert{
+//     background-color: #d65f4c;
+//     height: 40px;
+//     color: white;
+//     font-size: 20px;
+//     text-align: center;
+//   }
+
+
+// }
+
+// @media (max-width: 670px) {
+
+//    .header-right{
+//     display: none;
+//   }
+
+//   .logo-img{
+//     width: 100px;
+//   }
+//   .container-top{
+//     padding: 0;
+//   }
+//   .container-web{
+//     display: none;
+//   }
+
+//   .container-ios{
+//   padding: 100px;
+//   display: block;
+//   }
+
+//   .container{
+//     padding: 20px;
+//   }
+//   .main-img{
+//     display: none;
+//   }
+//   .main-img-ios{
+//   display: block;
+//   }
+//   .pre-signUp{
+//     font-size: 20px;
+//     font-weight: bold;
+//     bottom: 40px;
+//     left: 20px;
+//     border: 3px solid #ffffff;
+//     padding:10px 40px;
+//   }
+//   .pre-signUp:hover{
+//     color: #777;
+//     background:#fafad2;
+//   }
+// // formのcss
+//   .sign_up1{
+//     font-size: 15px;
+//     bottom: 140px;
+//     position: absolute;
+//     left: 15%;
+//     color: #525252;
+//     border: 3px solid #525252;
+//     padding: 5px 50px;
+//   }
+
+//   .sign_up1::-webkit-input-placeholder{
+//     color: #525252;
+//   }
+//   .sign_up2{
+//     font-size: 15px;
+//     color: #525252;
+//     bottom: 100px;
+//     position: absolute;
+//     left: 15%;
+//     border: 3px solid #525252;
+//     padding: 5px 50px;
+//   }
+//   .sign_up2::-webkit-input-placeholder{
+//     color: #525252;
+//   }
+//   .sign_up3{
+//     font-size: 15px;
+//     color: #525252;
+//     bottom: 60px;
+//     position: absolute;
+//     left: 15%;
+//     background-color: transparent;
+//     border: 3px solid #525252;
+//     padding: 5px 50px;
+//   }
+//   .sign_up3::-webkit-input-placeholder{
+//     color: #525252;
+//   }
+//   .submit{
+//     bottom: -20px;
+//     position: absolute;
+//     left: 15%;
+//     border: 3px solid #525252;
+//     padding:10px 110px;
+//     color: #525252;
+//   }
+//   .submit:hover{
+//     color: white;
+//     border-radius: 60px;
+//     background: #525252;
+//   }
+//   .explain-pre-signUp{
+//     bottom: 2px;
+//     left: 40px;
+//     font-size: 1px;
+//   }
+//   .br-2::before{
+//     content: "\A" ;
+//     white-space: pre ;
+//   }
+//   .title{
+//     padding: 30px 0 20px 0;
+//   }
+//   .how-to-img img{
+//     width:100%;
+//   }
+//   .arrow{
+//     display: none;
+//   }
+//   .arrow-2{
+//     display: none;
+//   }
+//   .second-explain li{
+//     display: none;
+//   }
+//   .how-to-img-ios{
+//     display: block;
+//     margin: 0 auto;
+//     width:70%;
+//   }
+//   .how-to-img img{
+//     display: none;
+//   }
+//   .to-get-img{
+//     display: none;
+//   }
+//   .to-get-img-ios{
+//     width: 60%;
+//     display: block;
+//     margin: 0 auto;
+//   }
+
+//   // ##フラッシュメッセージ
+
+// .flash-message-alert{
+//   background-color: #d65f4c;
+//   height: 40px;
+//   color: white;
+//   font-size: 20px;
+//   text-align: center;
+// }
+
+// }
+
+
+
+

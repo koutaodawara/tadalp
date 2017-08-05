@@ -1,0 +1,60 @@
+/*a{
+  color:#000;
+  text-decoration: none;
+}
+a:visited{
+  color: #000;
+}
+.container{
+  padding: 100px 300px;
+}
+.thanks-ipad{
+  display: none;
+}
+.thanks-iphone{
+  display: none;
+}
+.thanks-web{
+  width: 100%;
+}
+.backButton{
+  width: 15%;
+  float: right;
+  margin-top: 20px;
+}
+
+@media(max-width: 1000px){
+
+  .thanks-web{
+    display: none;
+  }
+  .thanks-ipad{
+    display: block;
+  }
+  .container{
+    padding: 300px 15px;
+  }
+  .backButton{
+    width:20%;
+  }
+
+}
+
+@media(max-width: 670px){
+
+  .thanks-ipad{
+    display: none;
+  }
+  .thanks-iphone{
+    display: block;
+  }
+  .container{
+    padding: 100px 50px;
+  }
+  .backButton{
+    width: 30%;
+    margin-top: 10px;
+  }
+
+}
+*/

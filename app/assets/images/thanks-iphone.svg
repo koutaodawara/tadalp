@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="13089.046 41 267 459.126">
+  <defs>
+    <style>
+      .cls-1, .cls-6 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #000;
+      }
+
+      .cls-2 {
+        font-size: 10px;
+        font-family: HiraginoSans-W6, Hiragino Sans;
+      }
+
+      .cls-3 {
+        font-size: 19px;
+      }
+
+      .cls-3, .cls-4 {
+        font-family: SignPainter-HouseScript, SignPainter;
+      }
+
+      .cls-4 {
+        fill: #525252;
+        font-size: 15px;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="グループ化_25" data-name="グループ化 25" transform="translate(13038 -63)">
+    <g id="長方形_13" data-name="長方形 13" class="cls-1" transform="translate(51.046 104)">
+      <rect class="cls-5" width="267" height="459.126"/>
+      <rect class="cls-6" x="0.5" y="0.5" width="266" height="458.126"/>
+    </g>
+    <text id="事前登録_ありがとうございます_" data-name="事前登録、ありがとうございます。" class="cls-2" transform="translate(80.084 288.712)"><tspan x="0" y="0">事前登録、ありがとうございます。</tspan></text>
+    <text id="私達は最高のサービスを皆様にお届けします_" data-name="私達は最高のサービスを皆様にお届けします。" class="cls-2" transform="translate(80.084 337.958)"><tspan x="0" y="0">私達は最高のサービスを皆様にお届けします。</tspan></text>
+    <text id="リリースまでもうしばらくお待ちください_" data-name="リリースまでもうしばらくお待ちください。" class="cls-2" transform="translate(80.084 378.204)"><tspan x="0" y="9">リリースまでもうしばらくお待ちください。</tspan></text>
+    <text id="THANK_YOU" data-name="THANK YOU" class="cls-3" transform="translate(145.01 133.821)"><tspan x="0" y="0">THANK YOU</tspan></text>
+    <text id="From:TADAGENIC" class="cls-4" transform="translate(207.749 540.607)"><tspan x="0" y="0">From:TADAGENIC</tspan></text>
+    <text id="To:_YOU" data-name="To: YOU" class="cls-4" transform="translate(80.084 226.313)"><tspan x="0" y="0">To: YOU</tspan></text>
+  </g>
+</svg>

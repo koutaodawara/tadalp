@@ -1,0 +1,599 @@
+// create後のデザイン
+a{
+  text-decoration: none;
+}
+.container{
+  padding: 100px 300px;
+}
+.thanks-ipad{
+  display: none;
+}
+.thanks-iphone{
+  display: none;
+}
+.thanks-web{
+  width: 100%;
+}
+.backButton{
+  width: 15%;
+  float: right;
+  margin-top: 20px;
+}
+
+@media(max-width: 1000px){
+
+  .thanks-web{
+    display: none;
+  }
+  .thanks-ipad{
+    display: block;
+  }
+  .container{
+    padding: 300px 15px;
+  }
+  .backButton{
+    width:20%;
+  }
+
+}
+
+@media(max-width: 670px){
+
+  .thanks-ipad{
+    display: none;
+  }
+  .thanks-iphone{
+    display: block;
+  }
+  .container{
+    padding: 100px 50px;
+  }
+  .backButton{
+    width: 30%;
+    margin-top: 10px;
+  }
+
+}
+
+
+// basicデザイン
+*{
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style:none;
+}
+body{
+  margin:0px;
+  padding: 0px;
+}
+.main-img-ios{
+  display: none;
+}
+.clear{
+  clear: left;
+}
+.container{
+padding: 0 85px;
+}
+.container-web{
+  display: display;
+}
+
+.container-ios{
+  display: none;
+}
+.container-top{
+  padding: 0 85px;
+}
+/*ヘッダー*/
+.logo-img{
+  margin: 30px 30px 20px 30px;
+}
+.header-right{
+  float: right;
+  margin-right: 85px;
+  font-size: 25px;
+}
+.header-right li{
+  float: left;
+  padding: 10px;
+  margin-top: 40px;
+  color: black;
+}
+.header-right li a{
+  color: black;
+}
+
+.header-right li a:hover{
+  color: #777777;
+}
+/*メイン画像*/
+.top-wrapper{
+  position: relative;
+}
+.main-img{
+  width:100%;
+}
+.pre-signUp{
+  position: absolute;
+  bottom: 120px;
+  left: 170px;
+  color: white;
+  font-size: 30px;
+  border: 3px solid #ffffff;
+  border-radius: 60px;
+  padding:3px 100px;
+}
+.pre-signUp:hover{
+    color: #9c4e45;
+    background: #eaeaea;
+}
+// formのjsのcss
+.sign_up1{
+  position: absolute;
+  bottom: 250px;
+  left: 170px;
+  color: white;
+  background-color: transparent;
+  font-size: 20px;
+  border: 3px solid #ffffff;
+  border-radius: 60px;
+  outline: 0;
+  padding:3px 100px;
+}
+.sign_up1::-webkit-input-placeholder{
+  color: white;
+}
+.sign_up2{
+  position: absolute;
+  bottom: 210px;
+  left: 170px;
+  color: white;
+  background-color: transparent;
+  font-size: 20px;
+  border: 3px solid #ffffff;
+  border-radius: 60px;
+  outline: 0;
+  padding:3px 100px;
+}
+.sign_up2::-webkit-input-placeholder{
+  color: white;
+}
+.sign_up3{
+  position: absolute;
+  bottom: 170px;
+  left: 170px;
+  color: white;
+  outline: 0;
+  background-color: transparent;
+  font-size: 20px;
+  border: 3px solid #ffffff;
+  border-radius: 60px;
+  padding:3px 100px;
+}
+.sign_up3::-webkit-input-placeholder{
+  color: white;
+}
+.submit{
+  position: absolute;
+  bottom: 115px;
+  left: 170px;
+  outline: 0;
+  color:#9c4e45;
+  background-color: white;
+  font-size: 20px;
+  border: 3px solid #ffffff;
+  border-radius: 60px;
+  padding:3px 100px;
+}
+.submit:hover{
+  color: #9C4E45;
+  background: #eaeaea;
+  border-radius: 60px;
+}
+.explain-pre-signUp{
+  color: #ffffff;
+  position: absolute;
+  bottom: 90px;
+  left: 185px;
+  font-size: 15px;
+}
+/*ただジェニックとは？*/
+.title{
+  font-family:"SignPainter",sans-serif;
+  font-size: 60px;
+  padding:  100px 0 30px 0;
+}
+.explain-text{
+  font-size: 20px;
+}
+/*使い方*/
+.second-explain{
+  padding-bottom: 50px;
+
+}
+.second-explain li{
+  float: left;
+  width: 33.33%
+}
+.left-end{
+  text-align: center;
+  position: relative;
+  right: 20px;
+}
+.middle{
+  text-align: center;
+}
+.right-end{
+text-align: center;
+position: relative;
+left: 20px;
+}
+.how-to-img{
+  margin-top: 30px;
+}
+.how-to-img img{
+float: left;
+padding:0 20px;
+}
+.arrow{
+  width:10%;
+  position: relative;
+  top: 120px;
+}
+.arrow-2{
+  width:10%;
+  position: relative;
+  top: 107px;
+}
+.hand-phone{
+  width:30%;
+}
+.ios-preview{
+  width:20%;
+  position: relative;
+  bottom: 30px;
+}
+.giftBox{
+  width:30%;
+}
+
+.to-get-img{
+  width:100%;
+  padding:80px;
+}
+.to-get-img-ios{
+  display: none;
+}
+.how-to-img-ios{
+  display: none;
+}
+// ##フラッシュメッセージ
+.flash-message-alert{
+  background-color: #d65f4c;
+  height: 40px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+// レスポンスデザイン
+
+// webやipadのレスポンス
+@media(min-width: 670px) and (max-width: 1000px){
+
+  .container{
+    padding:0 25px;
+  }
+  .container-web{
+    display: display;
+  }
+
+  .container-ios{
+    display: none;
+  }
+  .container-top{
+    padding: 0 25px;
+  }
+  .logo-img{
+    width:150px;
+    display: block;
+    margin: 0 auto;
+    padding:10px 0 5px 0;
+  }
+  .header-right{
+    display: none;
+  }
+
+  .pre-signUp{
+    bottom: 75px;
+    left: 120px;
+    font-size: 25px;
+  }
+  .pre-signUp:hover{
+    color:#9c4e45;
+    background-color: white;
+  }
+  .sign_up1{
+    position: absolute;
+    bottom: 200px;
+    left: 120px;
+    color: white;
+    background-color: transparent;
+    font-size: 15px;
+    border: 3px solid #ffffff;
+    border-radius: 60px;
+    outline: 0;
+    padding:3px 100px;
+  }
+  .sign_up1::-webkit-input-placeholder{
+    color: white;
+  }
+  .sign_up2{
+    position: absolute;
+    bottom: 160px;
+    left: 120px;
+    color: white;
+    background-color: transparent;
+    font-size: 15px;
+    border: 3px solid #ffffff;
+    border-radius: 60px;
+    outline: 0;
+    padding:3px 100px;
+  }
+  .sign_up2::-webkit-input-placeholder{
+    color: white;
+  }
+  .sign_up3{
+    position: absolute;
+    bottom: 120px;
+    left: 120px;
+    color: white;
+    background-color: transparent;
+    font-size: 15px;
+    border: 3px solid #ffffff;
+    border-radius: 60px;
+    outline: 0;
+    padding:3px 100px;
+  }
+  .sign_up3::-webkit-input-placeholder{
+    color: white;
+  }
+  .submit{
+    position: absolute;
+    bottom: 70px;
+    left: 120px;
+    color:#9c4e45;
+    background-color: white;
+    font-size: 20px;
+    border: 3px solid #ffffff;
+    border-radius: 60px;
+    padding: 3px 100px;
+  }
+  .submit:hover{
+    color: #9C4E45;
+    background: #eaeaea;
+    border-radius: 60px;
+  }
+  .explain-pre-signUp{
+    bottom: 35px;
+    left: 130px;
+    font-size: 10px;
+  }
+  .br::before {
+    content: "\A" ;
+    white-space: pre ;
+  }
+  .title{
+    font-size: 30px;
+    padding: 45px 0 20px 0;
+  }
+  .explain-text{
+    font-size: 15px;
+  }
+  .left-end{
+    right:5px;
+  }
+  .right-end{
+    left:10px;
+  }
+  .arrow{
+    width:12%;
+    position: relative;
+    top: 80px;
+  }
+  .arrow-2{
+    width:12%;
+    position: relative;
+    top: 65px;
+  }
+  .how-to-img{
+    margin:0;
+  }
+  .how-to-img img{
+    float: left;
+    padding:0 10px;
+  }
+  .hand-phone{
+    width:30%;
+  }
+  .ios-preview{
+    width:15%;
+    position: relative;
+    top: 10px;
+  }
+  .giftBox{
+    width:30%;
+  }
+  .to-get-img{
+    padding: 40px 80px;
+  }
+
+    // ##フラッシュメッセージ
+  .flash-message-alert{
+    background-color: #d65f4c;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+}
+
+@media (max-width: 670px) {
+
+  .header-right{
+    display: none;
+  }
+
+  .logo-img{
+    width: 100px;
+  }
+  .container-top{
+    padding: 0;
+  }
+  .container-web{
+    display: none;
+  }
+
+  .container-ios{
+    padding: 100px;
+    display: block;
+  }
+
+  .container{
+    padding: 20px;
+  }
+  .main-img{
+    display: none;
+  }
+  .main-img-ios{
+    display: block;
+  }
+  .pre-signUp{
+    font-size: 20px;
+    font-weight: bold;
+    bottom: 40px;
+    left: 20px;
+    border: 3px solid #ffffff;
+    padding:10px 40px;
+  }
+  .pre-signUp:hover{
+    color: #9c4e45;
+    background: #eaeaea;
+  }
+// formのcss
+  .sign_up1{
+    font-size: 15px;
+    bottom: 140px;
+    position: absolute;
+    left: 15%;
+    color: #525252;
+    outline: 0;
+    border: 3px solid #525252;
+    padding: 5px 50px;
+  }
+
+  .sign_up1::-webkit-input-placeholder{
+    color: #525252;
+  }
+  .sign_up2{
+    font-size: 15px;
+    color: #525252;
+    bottom: 100px;
+    position: absolute;
+    left: 15%;
+    outline: 0;
+    border: 3px solid #525252;
+    padding: 5px 50px;
+  }
+  .sign_up2::-webkit-input-placeholder{
+    color: #525252;
+  }
+  .sign_up3{
+    font-size: 15px;
+    color: #525252;
+    bottom: 60px;
+    position: absolute;
+    left: 15%;
+    outline: 0;
+    background-color: transparent;
+    border: 3px solid #525252;
+    padding: 5px 50px;
+  }
+  .sign_up3::-webkit-input-placeholder{
+    color: #525252;
+  }
+  .submit{
+    bottom: -20px;
+    position: absolute;
+    left: 15%;
+    border: 3px solid #525252;
+    padding:10px 110px;
+    color: #525252;
+  }
+  .submit:hover{
+    color: white;
+    border-radius: 60px;
+    background: #525252;
+  }
+  .explain-pre-signUp{
+    bottom: 2px;
+    left: 40px;
+    font-size: 1px;
+  }
+  .br-2::before{
+    content: "\A" ;
+    white-space: pre ;
+  }
+  .title{
+    padding: 30px 0 20px 0;
+  }
+  .how-to-img img{
+    width:100%;
+  }
+  .arrow{
+    display: none;
+  }
+  .arrow-2{
+    display: none;
+  }
+  .second-explain li{
+    display: none;
+  }
+  .how-to-img-ios{
+    display: block;
+    margin: 0 auto;
+    width:70%;
+  }
+  .how-to-img img{
+    display: none;
+  }
+  .to-get-img{
+    display: none;
+  }
+  .to-get-img-ios{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  // ##フラッシュメッセージ
+
+.flash-message-alert{
+  background-color: #d65f4c;
+  height: 40px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+}
+
+
+

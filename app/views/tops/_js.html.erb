@@ -17,12 +17,12 @@
   <div class = "top-wrapper">
     <div class="container-top">
       <%= image_tag "web-top-img.png", class: 'main-img' %>
-      <%= image_tag "iphone-top-img.svg", class: "main-img-ios" %>
+      <%= image_tag "top-img-ios.png", class: "main-img-ios" %>
     <div class='container-web'>
       <%= form_for (@top) do |f| %>
         <%= f.text_field :name, class: 'sign_up1', placeholder: '名前' %>
         <%= f.text_field :email, class: 'sign_up2', placeholder: 'メールアドレス'%>
-        <%= f.text_field :insta, class: 'sign_up3', placeholder: 'instaアカウント ID'%>
+        <%= f.text_field :insta, class: 'sign_up3', placeholder: 'instagramアカウント ID'%>
         <%= f.submit '登録', class: 'submit'%>
       <% end %>
       <div class="explain-pre-signUp">
@@ -34,7 +34,7 @@
       <%= form_for (@top) do |f| %>
         <%= f.text_field :name, class: 'sign_up1', placeholder: '名前' %>
         <%= f.text_field :email, class: 'sign_up2', placeholder: 'メールアドレス'%>
-        <%= f.text_field :insta, class: 'sign_up3', placeholder: 'instaアカウント ID'%>
+        <%= f.text_field :insta, class: 'sign_up3', placeholder: 'instagramアカウント ID'%>
         <%= f.submit '登録', class: 'submit'%>
       <% end %>
     </div>

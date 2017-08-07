@@ -50,5 +50,6 @@ test:
 production:
   <<: *default
   database: tadalp_production
-  username: tadalp
-  password: <%= ENV['TADALP_DATABASE_PASSWORD'] %>
+  username: root
+  password:
+  socket: /var/lib/mysql/mysql.sock

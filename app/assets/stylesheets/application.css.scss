@@ -61,6 +61,7 @@ a{
   box-sizing: border-box;
 }
 a{
+  color:#000;
   text-decoration: none;
 }
 
@@ -103,14 +104,6 @@ padding: 0 85px;
   float: left;
   padding: 10px;
   margin-top: 40px;
-  color: black;
-}
-.header-right li a{
-  color: black;
-}
-
-.header-right li a:hover{
-  color: #777777;
 }
 /*メイン画像*/
 .top-wrapper{
@@ -130,8 +123,8 @@ padding: 0 85px;
   padding:3px 100px;
 }
 .pre-signUp:hover{
-    color: #9c4e45;
-    background: #eaeaea;
+    color: #777;
+    background:#eaeaea;
 }
 // formのjsのcss
 .sign_up1{
@@ -143,7 +136,6 @@ padding: 0 85px;
   font-size: 20px;
   border: 3px solid #ffffff;
   border-radius: 60px;
-  outline: 0;
   padding:3px 100px;
 }
 .sign_up1::-webkit-input-placeholder{
@@ -158,7 +150,6 @@ padding: 0 85px;
   font-size: 20px;
   border: 3px solid #ffffff;
   border-radius: 60px;
-  outline: 0;
   padding:3px 100px;
 }
 .sign_up2::-webkit-input-placeholder{
@@ -169,7 +160,6 @@ padding: 0 85px;
   bottom: 170px;
   left: 170px;
   color: white;
-  outline: 0;
   background-color: transparent;
   font-size: 20px;
   border: 3px solid #ffffff;
@@ -183,18 +173,17 @@ padding: 0 85px;
   position: absolute;
   bottom: 115px;
   left: 170px;
-  outline: 0;
-  color:#9c4e45;
-  background-color: white;
+  color: white;
+  background-color: transparent;
   font-size: 20px;
   border: 3px solid #ffffff;
   border-radius: 60px;
   padding:3px 100px;
 }
 .submit:hover{
-  color: #9C4E45;
-  background: #eaeaea;
+  color: #777;
   border-radius: 60px;
+  background:#eaeaea;
 }
 .explain-pre-signUp{
   color: #ffffff;
@@ -285,13 +274,15 @@ padding:0 20px;
 // レスポンスデザイン
 
 // webやipadのレスポンス
-@media(min-width: 670px) and (max-width: 1000px){
+@media(max-width: 1000px){
 
   .container{
     padding:0 25px;
   }
   .container-web{
     display: display;
+    position: relative;
+    top:30px;
   }
 
   .container-ios{
@@ -311,13 +302,13 @@ padding:0 20px;
   }
 
   .pre-signUp{
-    bottom: 75px;
+    bottom: 70px;
     left: 120px;
-    font-size: 25px;
+    font-size: 20px;
   }
   .pre-signUp:hover{
-    color:#9c4e45;
-    background-color: white;
+    color: #777;
+    background:#fafad2;
   }
   .sign_up1{
     position: absolute;
@@ -328,7 +319,6 @@ padding:0 20px;
     font-size: 15px;
     border: 3px solid #ffffff;
     border-radius: 60px;
-    outline: 0;
     padding:3px 100px;
   }
   .sign_up1::-webkit-input-placeholder{
@@ -343,7 +333,6 @@ padding:0 20px;
     font-size: 15px;
     border: 3px solid #ffffff;
     border-radius: 60px;
-    outline: 0;
     padding:3px 100px;
   }
   .sign_up2::-webkit-input-placeholder{
@@ -358,7 +347,6 @@ padding:0 20px;
     font-size: 15px;
     border: 3px solid #ffffff;
     border-radius: 60px;
-    outline: 0;
     padding:3px 100px;
   }
   .sign_up3::-webkit-input-placeholder{
@@ -368,20 +356,20 @@ padding:0 20px;
     position: absolute;
     bottom: 70px;
     left: 120px;
-    color:#9c4e45;
-    background-color: white;
+    color: white;
+    background-color: transparent;
     font-size: 20px;
     border: 3px solid #ffffff;
     border-radius: 60px;
-    padding: 3px 100px;
+    padding:3px 100px;
   }
   .submit:hover{
-    color: #9C4E45;
-    background: #eaeaea;
+    color: #777;
     border-radius: 60px;
+    background:#fafad2;
   }
   .explain-pre-signUp{
-    bottom: 35px;
+    bottom: 40px;
     left: 130px;
     font-size: 10px;
   }
@@ -416,8 +404,8 @@ padding:0 20px;
     margin:0;
   }
   .how-to-img img{
-    float: left;
-    padding:0 10px;
+  float: left;
+  padding:0 10px;
   }
   .hand-phone{
     width:30%;
@@ -448,12 +436,15 @@ padding:0 20px;
 
 @media (max-width: 670px) {
 
-  .header-right{
+   .header-right{
     display: none;
   }
 
   .logo-img{
     width: 100px;
+    display:block;
+    margin: 0 auto;
+    padding:10px 0 5px 0;
   }
   .container-top{
     padding: 0;
@@ -463,8 +454,8 @@ padding:0 20px;
   }
 
   .container-ios{
-    padding: 100px;
-    display: block;
+  padding: 100px;
+  display: block;
   }
 
   .container{
@@ -474,19 +465,19 @@ padding:0 20px;
     display: none;
   }
   .main-img-ios{
-    display: block;
+  display: block;
   }
   .pre-signUp{
     font-size: 20px;
     font-weight: bold;
-    bottom: 40px;
+    bottom: 50px;
     left: 20px;
     border: 3px solid #ffffff;
     padding:10px 40px;
   }
   .pre-signUp:hover{
-    color: #9c4e45;
-    background: #eaeaea;
+    color: #777;
+    background:#fafad2;
   }
 // formのcss
   .sign_up1{
@@ -495,13 +486,12 @@ padding:0 20px;
     position: absolute;
     left: 15%;
     color: #525252;
-    outline: 0;
     border: 3px solid #525252;
     padding: 5px 50px;
   }
 
   .sign_up1::-webkit-input-placeholder{
-    color: #525252;
+    color: #777777;
   }
   .sign_up2{
     font-size: 15px;
@@ -509,12 +499,11 @@ padding:0 20px;
     bottom: 100px;
     position: absolute;
     left: 15%;
-    outline: 0;
     border: 3px solid #525252;
     padding: 5px 50px;
   }
   .sign_up2::-webkit-input-placeholder{
-    color: #525252;
+    color: #777777;
   }
   .sign_up3{
     font-size: 15px;
@@ -522,20 +511,19 @@ padding:0 20px;
     bottom: 60px;
     position: absolute;
     left: 15%;
-    outline: 0;
     background-color: transparent;
     border: 3px solid #525252;
     padding: 5px 50px;
   }
   .sign_up3::-webkit-input-placeholder{
-    color: #525252;
+    color: #777777;
   }
   .submit{
     bottom: -20px;
     position: absolute;
     left: 15%;
     border: 3px solid #525252;
-    padding:10px 110px;
+    padding:5px 114px;
     color: #525252;
   }
   .submit:hover{
@@ -555,13 +543,13 @@ padding:0 20px;
   .title{
     padding: 30px 0 20px 0;
   }
-  .how-to-img img{
-    width:100%;
-  }
   .arrow{
     display: none;
   }
   .arrow-2{
+    display: none;
+  }
+  .second-explain{
     display: none;
   }
   .second-explain li{
@@ -571,6 +559,9 @@ padding:0 20px;
     display: block;
     margin: 0 auto;
     width:70%;
+  }
+  .how-to-img{
+    display: none;
   }
   .how-to-img img{
     display: none;
@@ -593,7 +584,5 @@ padding:0 20px;
   font-size: 20px;
   text-align: center;
 }
+
 }
-
-
-

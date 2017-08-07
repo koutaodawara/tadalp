@@ -2,8 +2,9 @@
 a{
   text-decoration: none;
 }
-.container{
+.container-thanks{
   padding: 100px 300px;
+
 }
 .thanks-ipad{
   display: none;
@@ -28,7 +29,7 @@ a{
   .thanks-ipad{
     display: block;
   }
-  .container{
+  .container-thanks{
     padding: 300px 15px;
   }
   .backButton{
@@ -45,7 +46,7 @@ a{
   .thanks-iphone{
     display: block;
   }
-  .container{
+  .container-thanks{
     padding: 100px 50px;
   }
   .backButton{
@@ -465,7 +466,8 @@ padding:0 20px;
     display: none;
   }
   .main-img-ios{
-  display: block;
+    display: block;
+    width: 100%;
   }
   .pre-signUp{
     font-size: 20px;

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10622 174 1096 606">
+  <defs>
+    <style>
+      .cls-1, .cls-7 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #000;
+      }
+
+      .cls-2 {
+        font-size: 40px;
+        font-family: HiraginoSans-W6, Hiragino Sans;
+      }
+
+      .cls-3 {
+        font-size: 100px;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        font-family: SignPainter-HouseScript, SignPainter;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #525252;
+      }
+
+      .cls-4 {
+        font-size: 60px;
+      }
+
+      .cls-5 {
+        font-size: 50px;
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="グループ化_23" data-name="グループ化 23" transform="translate(10196 -63)">
+    <g id="長方形_13" data-name="長方形 13" class="cls-1" transform="translate(426 237)">
+      <rect class="cls-6" width="1096" height="606"/>
+      <rect class="cls-7" x="0.5" y="0.5" width="1095" height="605"/>
+    </g>
+    <text id="事前登録_ありがとうございます_" data-name="事前登録、ありがとうございます。" class="cls-2" transform="translate(556 529)"><tspan x="0" y="0">事前登録、ありがとうございます。</tspan></text>
+    <text id="私達は最高のサービスを皆様にお届けします_" data-name="私達は最高のサービスを皆様にお届けします。" class="cls-2" transform="translate(556 594)"><tspan x="0" y="0">私達は最高のサービスを皆様にお届けします。</tspan></text>
+    <text id="リリースまでもうしばらくお待ちください_" data-name="リリースまでもうしばらくお待ちください。" class="cls-2" transform="translate(556 624)"><tspan x="0" y="35">リリースまでもうしばらくお待ちください。</tspan></text>
+    <text id="THANK_YOU" data-name="THANK YOU" class="cls-3" transform="translate(772 349)"><tspan x="0" y="0">THANK YOU</tspan></text>
+    <text id="From:TADAGENIC" class="cls-4" transform="translate(1167 817)"><tspan x="0" y="0">From:TADAGENIC</tspan></text>
+    <text id="To:_YOU" data-name="To: YOU" class="cls-5" transform="translate(556 444)"><tspan x="0" y="0">To: YOU</tspan></text>
+  </g>
+</svg>

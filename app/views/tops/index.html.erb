@@ -5,7 +5,7 @@
 
 <body>
 <header>
-    <%= image_tag "TADAGENIC.png", class: "logo-img" %>
+    <%= link_to image_tag("TADAGENIC.png", { class: "logo-img" }), tops_path %>
   <div class="header-right">
     <li><a href = "#what-is">TADAGENICとは？</a></li>
     <li><a href = "#how-to">使い方</a></li>
@@ -67,7 +67,7 @@
              <%= image_tag "groop4.svg", class: "to-get-img" %>
              <%= image_tag "to-get-img-ios.svg", class: "to-get-img-ios" %>
          </div>
-         <%=image_tag"pre-signup-button-web.png", class: "pre-signup-button-web"%>
+         <%=image_tag "pre-signup-button-web.png", class: "pre-signup-button-web"%>
          <%=image_tag "pre-signup-button-ipad.png", class: "pre-signup-button-ipad"%>
          <%=image_tag "pre-signup-button.png", class: "pre-signup-button"%>
        </div>

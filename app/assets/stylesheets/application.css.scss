@@ -263,6 +263,18 @@ padding:0 20px;
 .how-to-img-ios{
   display: none;
 }
+.pre-signup-button-ipad{
+  display: none;
+}
+.pre-signup-button{
+  display: none;
+}
+.pre-signup-button-web{
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding-bottom:50px;
+}
 // ##フラッシュメッセージ
 .flash-message-alert{
   background-color: #d65f4c;
@@ -422,6 +434,17 @@ padding:0 20px;
   .to-get-img{
     padding: 40px 80px;
   }
+  .pre-signup-button-ipad{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  .pre-signup-button{
+    display: none;
+  }
+  .pre-signup-button-web{
+    display: none;
+  }
 
     // ##フラッシュメッセージ
   .flash-message-alert{
@@ -536,7 +559,7 @@ padding:0 20px;
   .explain-pre-signUp{
     bottom: 2px;
     left: 40px;
-    font-size: 1px;
+    font-size: 10px;
   }
   .br-2::before{
     content: "\A" ;
@@ -575,6 +598,17 @@ padding:0 20px;
     width: 60%;
     display: block;
     margin: 0 auto;
+  }
+  .pre-signup-button-ipad{
+    display: none;
+  }
+  .pre-signup-button{
+    display: block;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+  .pre-signup-button-web{
+    display:none;
   }
 
   // ##フラッシュメッセージ

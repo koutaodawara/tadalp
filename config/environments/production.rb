@@ -66,7 +66,7 @@ Rails.application.configure do
   config.i18n.fallbacks = true
 
   # googleアナリティクス
-  GA.tracker = "UA-104327020-1"
+  GA.tracker = "UA-104332779-1"
 
   # Send deprecation notices to registered listeners.
   config.active_support.deprecation = :notify

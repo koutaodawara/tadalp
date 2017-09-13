@@ -14,7 +14,6 @@ class TopsController < ApplicationController
       flash.now[:alert] = "空欄を埋めてください"
       render :new
     end
-
   end
 
   private

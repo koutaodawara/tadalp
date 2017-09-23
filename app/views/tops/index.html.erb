@@ -7,16 +7,17 @@
 <header>
     <%= link_to image_tag("TADAGENIC.png", { class: "logo-img" }), tops_path %>
   <div class="header-right">
-    <li><a href = "#what-is">TADAGENICとは？</a></li>
-    <li><a href = "#how-to">使い方</a></li>
-    <li><a href="#to-get">商品をもらうために...</a></li>
+    <li><%= link_to "事前登録をする", tops_path%></li>
+    <li><%=link_to "会社情報", about_tops_path%></li>
+    <li>企業の方はこちら</li>
+    <li>インフルエンサーの方はこちら</li>
   </div>
 </header>
 
 <article>
   <div class = "top-wrapper">
     <div class="container-top">
-     <%= image_tag "web-top-img.png", class: 'main-img' %>
+     <%= image_tag "top-img.png", class: 'main-img' %>
      <%= image_tag "top-img-ios.png", class: "main-img-ios" %>
      <%= link_to "事前登録する", new_top_path, class: "pre-signUp", remote: true %>
      <div class="explain-pre-signUp">
@@ -60,12 +61,25 @@
             <div class="title third-title">
               To Get Products More...
             </div>
-            <div class="explain-text first-explain">
+            <div class="explain-text third-explain">
               商品を受け取ったら良いと感じたらInstagramでシェア、悪いと感じたら<br>
               商品の感想を送ると次の商品がもらいやすくなります。
             </div>
              <%= image_tag "groop4.svg", class: "to-get-img" %>
              <%= image_tag "to-get-img-ios.svg", class: "to-get-img-ios" %>
+         </div>
+         <div class= "example-goods">
+           <div class="title fourth-title">
+             Example of Goods
+           </div>
+           <div class="explain-text fourth-explian">
+             TADAGENICで手に入る商品例です。<br/>
+             *写真はあくまでイメージです。
+           </div>
+           <%= image_tag "example-goods.png", class: "goods-img-web" %>
+           <div class="explain-text fourth-explain">
+             引用元：Pinterest
+           </div>
          </div>
          <%= link_to image_tag("pre-signup-button-web.png", { class: "pre-signup-button-web" }), new_top_path %>
          <%= link_to image_tag("pre-signup-button-ipad.png", { class: "pre-signup-button-ipad" }), new_top_path %>

@@ -80,7 +80,7 @@ body{
   clear: left;
 }
 .container{
-padding: 0 85px;
+padding: 0 200px;
 }
 .container-web{
   display: display;
@@ -95,16 +95,17 @@ padding: 0 85px;
 /*ヘッダー*/
 .logo-img{
   margin: 30px 30px 20px 30px;
+  width: 220px;
 }
 .header-right{
   float: right;
   margin-right: 85px;
-  font-size: 25px;
+  font-size: 18px;
 }
 .header-right li{
   float: left;
-  padding: 10px;
-  margin-top: 40px;
+  padding: 20px;
+  margin-top: 25px;
 }
 /*メイン画像*/
 .top-wrapper{
@@ -197,10 +198,16 @@ padding: 0 85px;
 .title{
   font-family:"SignPainter",sans-serif;
   font-size: 60px;
-  padding:  100px 0 30px 0;
+  padding:  250px 0 30px 0;
+  text-align: center;
 }
 .explain-text{
   font-size: 20px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.first-explain{
+  padding-bottom: 0;
 }
 /*使い方*/
 .second-explain{
@@ -255,13 +262,18 @@ padding:0 20px;
 
 .to-get-img{
   width:100%;
-  padding:80px;
 }
 .to-get-img-ios{
   display: none;
 }
 .how-to-img-ios{
   display: none;
+}
+.example-goods{
+  margin-bottom: 200px;
+}
+.goods-img-web{
+  width:100%;
 }
 .pre-signup-button-ipad{
   display: none;

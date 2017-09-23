@@ -297,6 +297,9 @@ padding:0 20px;
 .goods-img-web{
   width:100%;
 }
+.goods-img-ios{
+  display: none;
+}
 .quotation{
   float:right;
 }
@@ -315,6 +318,10 @@ padding:0 20px;
 }
 .border{
   border-top: 1px solid #525252;
+}
+.footer-logo{
+  margin: 30px 30px 20px 30px;
+  width: 220px;
 }
 .footer-link-1 li{
   float: left;
@@ -346,7 +353,7 @@ padding:0 20px;
 @media(max-width: 1000px){
 
   .container{
-    padding:0 25px;
+    padding:0 50px;
   }
   .container-web{
     display: display;
@@ -369,7 +376,18 @@ padding:0 20px;
   .header-right{
     display: none;
   }
-
+  .company-link{
+    bottom: 160px;
+    left: 120px;
+    font-size: 12px;
+    padding: 5px 90px;
+  }
+  .influencer-link{
+    bottom: 120px;
+    left: 120px;
+    font-size: 12px;
+    padding: 5px 55px;
+  }
   .pre-signUp{
     bottom: 70px;
     left: 120px;
@@ -448,7 +466,7 @@ padding:0 20px;
   }
   .title{
     font-size: 30px;
-    padding: 45px 0 20px 0;
+    padding: 70px 0 20px 0;
   }
   .explain-text{
     font-size: 15px;
@@ -501,6 +519,9 @@ padding:0 20px;
   .pre-signup-button-web{
     display: none;
   }
+  .footer-logo{
+    width:150px;
+  }
 
     // ##フラッシュメッセージ
   .flash-message-alert{
@@ -539,7 +560,7 @@ padding:0 20px;
   }
 
   .container{
-    padding: 20px;
+    padding: 60px;
   }
   .main-img{
     display: none;
@@ -548,11 +569,27 @@ padding:0 20px;
     display: block;
     width: 100%;
   }
+  .influencer-link{
+    font-size: 10px;
+    font-weight: bold;
+    bottom: 200px;
+    left:10px;
+    border: 3px solid #ffffff;
+    padding:10px 20px;
+  }
+  .company-link{
+    font-size: 10px;
+    font-weight: bold;
+    bottom: 250px;
+    left:10px;
+    border: 3px solid #ffffff;
+    padding:10px 50px
+  }
   .pre-signUp{
     font-size: 20px;
     font-weight: bold;
     bottom: 50px;
-    left: 20px;
+    left: 95px;
     border: 3px solid #ffffff;
     padding:10px 40px;
   }
@@ -614,7 +651,7 @@ padding:0 20px;
   }
   .explain-pre-signUp{
     bottom: 2px;
-    left: 40px;
+  text-align: center;
     font-size: 10px;
   }
   .br-2::before{
@@ -622,7 +659,7 @@ padding:0 20px;
     white-space: pre ;
   }
   .title{
-    padding: 30px 0 20px 0;
+    padding: 150px 0 20px 0;
   }
   .arrow{
     display: none;
@@ -655,6 +692,22 @@ padding:0 20px;
     display: block;
     margin: 0 auto;
   }
+  .example-goods{
+    margin-bottom: 150px;
+  }
+  .goods-img-web{
+    display: none;
+  }
+  .goods-img-ios{
+    display: block;
+    width:60%;
+    margin: 0 auto;
+  }
+  .quotation{
+    float: none;
+    text-align: center;
+    font-size: 12px;
+  }
   .pre-signup-button-ipad{
     display: none;
   }
@@ -665,6 +718,12 @@ padding:0 20px;
   }
   .pre-signup-button-web{
     display:none;
+  }
+  .footer-link-1 li{
+    padding:10px 200px 0 40px;
+  }
+  .footer-link-2 li{
+    padding:15px 110px 20px 40px;
   }
 
   // ##フラッシュメッセージ

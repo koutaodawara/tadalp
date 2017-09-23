@@ -678,3 +678,49 @@ padding:0 20px;
 }
 
 }
+
+//aboutページ
+.container-about{
+  padding: 0 300px;
+  text-align: center;
+}
+.top-about{
+width: 100%;
+}
+.container-top-about{
+  padding: 0;
+}
+.our-vision div{
+  margin-bottom: 20px;
+}
+.title-about{
+  font-family:"SignPainter",sans-serif;
+  font-size: 60px;
+  padding: 200px 0 10px 0;
+}
+.vision{
+  font-weight: bold;
+  font-size: 30px;
+}
+.company-title{
+  font-weight: bold;
+  padding-right: 20px;
+}
+.company-detail{
+  width: 420px;
+  margin: 0 auto;
+  position: relative;
+  left: 30px;
+  font-size: 20px;
+}
+.company-detail div{
+  padding-top: 20px;
+  float: left;
+}
+.contact{
+  margin-bottom:200px;
+}
+.e-mail{
+  padding-top: 10px;
+  font-size: 25px;
+}

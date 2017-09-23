@@ -19,6 +19,8 @@
     <div class="container-top">
      <%= image_tag "top-img.png", class: 'main-img' %>
      <%= image_tag "top-img-ios.png", class: "main-img-ios" %>
+     <%= link_to "企業の方はこちら", tops_path, class: "company-link" %>
+     <%= link_to "インフルエンサーの方はこちら", tops_path, class: "influencer-link" %>
      <%= link_to "事前登録する", new_top_path, class: "pre-signUp", remote: true %>
      <div class="explain-pre-signUp">
        事前登録をすればリリースの際、<span class="br-2">ご登録頂いた</span>ご連絡先にいち早く<span class = "br">お知らせ</span>が届きます。
@@ -77,9 +79,10 @@
              *写真はあくまでイメージです。
            </div>
            <%= image_tag "example-goods.png", class: "goods-img-web" %>
-           <div class="explain-text fourth-explain">
+           <div class="quotation">
              引用元：Pinterest
            </div>
+           <div class="clear"></div>
          </div>
          <%= link_to image_tag("pre-signup-button-web.png", { class: "pre-signup-button-web" }), new_top_path %>
          <%= link_to image_tag("pre-signup-button-ipad.png", { class: "pre-signup-button-ipad" }), new_top_path %>
@@ -87,10 +90,6 @@
        </div>
     </div>
 </article>
-
-<footer>
-
-</footer>
 
 </body>
 </html>

@@ -112,6 +112,7 @@ padding: 0 200px;
   font-size: 18px;
 }
 .header-right li{
+  font-size: 15px;
   float: left;
   padding: 20px;
   margin-top: 25px;
@@ -629,12 +630,13 @@ padding:0 20px;
    .menu-title{
      color: #000000;
      font-family:"SignPainter",sans-serif;
-     padding: 20px 0 30px 0;
+     padding: 30px 0 30px 0;
      text-align: center;
      font-size: 30px;
    }
    .menu-bar li{
-     margin: 10px 10px 0 10px;
+     font-size: 15px;
+     margin: 10px 10px 20px 10px;
      border-bottom: 1px solid #999999
    }
    .header-right{
@@ -941,4 +943,93 @@ width: 100%;
     margin-bottom: 150px;
   }
 
+}
+
+//companyページ
+
+.logo-img-white{
+  margin: 20px 30px 20px 30px;
+  width: 220px;
+}
+.header-right-white{
+  margin-right: 10px;
+  float: right;
+  font-size: 18px;
+}
+.header-right-white li{
+  float: left;
+  padding: 20px;
+  margin-top: 10px;
+}
+.header-right-white a{
+  color: #ffffff;
+  font-family:'Helvetica Neue',sans-serif;
+  font-size: 15px;
+}
+
+.container-top-company{
+  padding: 0;
+  background-image: url("top-img-company");
+  background-position: center center;
+ background-repeat: no-repeat;
+ background-size: cover;
+  height:800px;
+  width: 100%;
+}
+.container-company{
+  padding: 200px;
+}
+.title-company{
+  font-family: 'ヒラギノ角ゴ Std','Hiragino Kaku Gothic Std', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+}
+.company-explain{
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.link-top{
+  text-align: center;
+  margin-bottom: 100px;
+}
+.link-top span{
+  font-weight: bold;
+}
+
+.company-explain-img{
+  width: 750px;
+  margin: 0 auto;
+}
+.online-img{
+  width:80px;
+  margin-right:230px;
+}
+.target-img{
+  width:90px;
+  margin-right: 240px;
+}
+.data-img{
+  position: relative;
+  top: 10px;
+  width:90px;
+}
+.three-explain{
+text-align: center;
+}
+.three-explain li {
+  text-align: center;
+  float: left;
+}
+.online-explain{
+  font-size: 15px;
+  padding: 20px 80px 0px 80px;
+}
+.target-explain{
+  padding-right: 60px;
+  padding-top: 20px;
+}
+.data-explain{
+  padding-top: 20px;
 }

@@ -1,14 +1,52 @@
 <header>
-    <%= link_to image_tag("TADAGENIC.png", { class: "logo-img-white" }), tops_path %>
+  <div class="container-top-company">
+    <%= link_to image_tag("TADAGENIC-white.png", { class: "logo-img-white" }), tops_path %>
   <div class="header-right-white">
     <li><%= link_to "事前登録をする", tops_path%></li>
     <li><%=link_to "会社情報", about_tops_path%></li>
     <li><%= link_to "企業の方はこちら", company_tops_path %></li>
     <li><%= link_to "インフルエンサーの方はこちら", influencer_tops_path %></li>
   </div>
+</div>
 </header>
+
 <article>
-  <div class="top-wrapper-company">
-    <%= image_tag "top-img-company.png", class: 'main-img-company' %>   
+  <div class="container-company">
+  <div class="title-company">
+    TADGENIC FOR BUSINESS
+  </div>
+  <div class="company-explain">
+    TADAGENIC FOR BUSINESSはモバイルアプリ「TADAGENIC」<br />に企業様が商品を出稿するためのサービスです。
+  </div>
+  <div class="link-top">
+    TADAGENICの説明は<span><%= link_to "こちら", tops_path %></span>
+  </div>
+  <div class="company-explain-img">
+    <%= image_tag "monitor.png", class: "online-img" %>
+    <%= image_tag "target.png", class: "target-img" %>
+    <%= image_tag "data.png", class: "data-img"%>
+  </div>
+  <div class="three-explain">
+    <li class="online-explain">
+      登録から管理まで<br />発送以外の全てをオンラインで<br />完結することができます。
+    </li>
+    <li class="target-explain">
+      平均単価は通常のインフルエンサー<br />
+      マーケティングの半額程度です。<br />
+      さらに一般ユーザーのエンゲージメント<br />
+      はインフルエンサーの約５倍です。<br />
+      少ない予算で高い効果を生み出し<br />
+      圧倒的なコストパフォーマンス<br />
+      で提供します。
+    </li>
+    <li class="data-explain">
+      インフルエンサーから一般ユーザー<br />
+      まで幅広い層に商品を提供する<br />
+      ことで、他者では真似できない<br />
+      かなり濃密な行動データを提供する<br />
+      ことができます。
+    </li>
+  </div>
+  <div class="clear"></div>
   </div>
 </article>

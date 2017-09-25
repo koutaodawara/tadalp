@@ -33,8 +33,8 @@
       <div class="menu-title">MENU</div>
       <li><%= link_to "事前登録をする", tops_path%></li>
       <li><%=link_to "会社情報", about_tops_path%></li>
-      <li>企業の方はこちら</li>
-      <li>インフルエンサーの方はこちら</li>
+      <li><%= link_to "企業の方はこちら", company_tops_path %></li>
+      <li><%= link_to "インフルエンサーの方はこちら", influencer_tops_path %></li>
     </div>
     <%= yield %>
     <footer>

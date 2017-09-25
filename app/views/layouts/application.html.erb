@@ -25,6 +25,17 @@
     <% flash.each do |key, value| %>
       <%= content_tag(:div, value, class: "flash-message-#{key}") %>
     <% end %>
+      <%= image_tag "menu.png", class: "open-button" %>
+    <div class="menu-bar">
+        <div class="close-button">
+        ×
+        </div>
+      <div class="menu-title">MENU</div>
+      <li><%= link_to "事前登録をする", tops_path%></li>
+      <li><%=link_to "会社情報", about_tops_path%></li>
+      <li>企業の方はこちら</li>
+      <li>インフルエンサーの方はこちら</li>
+    </div>
     <%= yield %>
     <footer>
       <div class="border">

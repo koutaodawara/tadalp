@@ -1016,7 +1016,8 @@ width: 100%;
   width:90px;
 }
 .three-explain{
-text-align: center;
+  width:760px;
+  margin: 0 auto;
 }
 .three-explain li {
   text-align: center;
@@ -1024,12 +1025,17 @@ text-align: center;
 }
 .online-explain{
   font-size: 15px;
-  padding: 20px 80px 0px 80px;
+  padding-top: 20px;
+  position: relative;
+  right: 60px;
 }
 .target-explain{
-  padding-right: 60px;
+  position: relative;
+  left: 20px;
   padding-top: 20px;
 }
 .data-explain{
+  position: relative;
+  left: 80px;
   padding-top: 20px;
 }

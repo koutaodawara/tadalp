@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1320 2910 120 452">
+  <defs>
+    <style>
+      .cls-1, .cls-6 {
+        fill: none;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #000;
+        stroke-width: 5px;
+      }
+
+      .cls-2, .cls-4 {
+        font-size: 16px;
+        font-family: HiraginoSans-W6, Hiragino Sans;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="グループ化_93" data-name="グループ化 93" transform="translate(-1448 -470)">
+    <g id="楕円形_8" data-name="楕円形 8" class="cls-1" transform="translate(128 3546)">
+      <circle class="cls-5" cx="60" cy="60" r="60"/>
+      <circle class="cls-6" cx="60" cy="60" r="57.5"/>
+    </g>
+    <text id="出稿無料" class="cls-2" transform="translate(188 3612)"><tspan x="-32" y="0">出稿無料</tspan></text>
+    <g id="楕円形_7" data-name="楕円形 7" class="cls-3" transform="translate(128 3380)">
+      <circle class="cls-5" cx="60" cy="60" r="60"/>
+      <circle class="cls-6" cx="60" cy="60" r="57.5"/>
+    </g>
+    <text id="登録無料" class="cls-4" transform="translate(189.641 3446.197)"><tspan x="-32" y="0">登録無料</tspan></text>
+    <g id="楕円形_9" data-name="楕円形 9" class="cls-3" transform="translate(128 3712)">
+      <circle class="cls-5" cx="60" cy="60" r="60"/>
+      <circle class="cls-6" cx="60" cy="60" r="57.5"/>
+    </g>
+    <text id="低価格" class="cls-4" transform="translate(188 3778)"><tspan x="-24" y="0">低価格</tspan></text>
+  </g>
+</svg>

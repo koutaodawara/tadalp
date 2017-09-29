@@ -21,7 +21,7 @@ a{
   margin-top: 20px;
 }
 
-@media(max-width: 1000px){
+@media(max-width: 1024px){
 
   .thanks-web{
     display: none;
@@ -360,7 +360,7 @@ padding:0 20px;
 // レスポンスデザイン
 
 // webやipadのレスポンス
-@media(max-width: 1000px){
+@media(max-width: 1024px){
   .modal-bg {
   　display:none;
   　width:100%;
@@ -887,7 +887,7 @@ width: 100%;
   font-size: 25px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
 
   .container-about{
     padding: 0 30px;
@@ -1117,20 +1117,122 @@ width: 100%;
   margin-bottom: 150px;
   font-weight: bold;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .container-top-company{
+    height:450px;
+  }
+  .header-right-white{
+    display: none;
   }
   .logo-img-white{
-    position: absolute;
-    top:5px;
-    left: 33.333333%;
-    width: 100px;
-    margin:0;
+    display: block;
+    margin: 0 auto;
+    width:150px;
+    padding-top: 12px;
+  }
+  .signup-button-company-white{
+    position: relative;
+    top:330px;
+    padding: 5px 60px;
+    width:400px;
+  }
+  .title-company{
+    font-size: 25px;
+  }
+
+  .three-explain{
+    width:600px;
+
+  }
+  .three-explain li{
+    font-size: 12px;
+  }
+  .company-explain-img{
+    width: 600px;
+  }
+
+  .target-img{
+    width:70px;
+    margin-right: 180px;
+  }
+  .online-img{
+    width:60px;
+    margin-right: 180px;
+  }
+  .data-img{
+    width: 70px;
+  }
+  .signup-button-company{
+    width: 300px;
+    padding: 5px 50px;
+  }
+  .container-company{
+    padding: 150px 50px;
+  }
+  .friend-data-wrapper{
+    padding: 100px 50px;
+    margin-bottom: 100px;
+  }
+  .post-wrapper{
+    padding: 150px 60px;
+  }
+  .company-explain{
+    font-size: 15px;
+  }
+  .link-top{
+    font-size: 13px;
+  }
+
+  .friend-data{
+    width:60%;
+    padding-top: 60px;
+  }
+
+  .friend-explain{
+    font-size: 14px;
+  }
+  .fee-explain{
+    font-size: 12px;
+  }
+  .fee-wrapper{
+    margin-bottom: 100px;
+  }
+  .fee-three{
+    width: 70%;
+  }
+  .fee-table{
+    width: 60%;
+  }
+  .post-explain{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 670px) {
+  .logo-img-white{
+    display: block;
+    margin: 0 auto;
+    width:110px;
+    padding-top: 12px;
+  }
+  .container-top-company{
+    display: none;
+  }
+  .container-top-company-ios{
+    display: block;
+    padding: 0;
+    background-image: url("company-top-img-ios");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:680px;
+    width: 100%;
 
   }
   .signup-button-company-white{
     width: 300px;
     padding: 5px 50px;
+    top: 550px;
   }
   .title-company{
     font-size: 18px;
@@ -1199,96 +1301,114 @@ width: 100%;
   }
 }
 
-@media (max-width: 670px) {
-  .container-top-company{
-    display: none;
+//influencerページ
+.container-top-influencer-ios{
+  display: none;
+}
+.container-top-influencer{
+  padding: 0;
+  background-image: url("top-img-influencer");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:800px;
+  width: 100%;
+}
+.signup-button-influencer-white{
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 100px;
+  border: 2px solid #ffffff;
+  width:600px;
+  margin: 0 auto;
+  font-weight: bold;
+  position: relative;
+  top: 550px;
+}
+.title-influencer{
+  font-family: 'ヒラギノ角ゴ Std','Hiragino Kaku Gothic Std', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 280px;
+}
+.explain-influencer{
+  text-align: center;
+  padding-top: 10px;
+}
+.event-explain{
+  margin-bottom: 280px;
+}
+.explain-influencer-top{
+  margin-bottom: 15px;
+}
+.explain-influencer-top span{
+  font-weight: bold;
+}
+.link-top-influencer{
+  text-align: center;
+}
+.link-top-influencer span{
+  font-weight: bold;
+}
+.signup-button-influencer{
+  text-align: center;
+  padding: 10px 100px;
+  border: 2px solid #000000;
+  width:600px;
+  margin: 0 auto;
+  margin-bottom: 280px;
+  font-weight: bold;
+}
+@media (max-width: 1024px){
+  .container-top-influencer{
+    height: 450px;
   }
-  .container-top-company-ios{
+  .title-influencer{
+    font-size: 25px;
+  }
+
+}
+@media (max-width: 670px){
+  .title-influencer{
+    font-size: 18px;
+    padding-top: 200px;
+  }
+  .explain-influencer{
+    font-size: 14px;
+  }
+  .link-top-influencer{
+    font-size: 12px;
+  }
+  .signup-button-influencer{
+    width:300px;
+  }
+  .container-top-influencer{
+    display:none;
+  }
+  .container-top-influencer-ios{
     display: block;
     padding: 0;
-    background-image: url("company-top-img-ios");
+    background-image: url("top-img-influencer-ios");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height:680px;
     width: 100%;
-
   }
-  .logo-img-white{
-    position: absolute;
-    top:5px;
-    left: 33.333333%;
-    width: 100px;
-    margin:0;
-
-  }
-  .signup-button-company-white{
+  .signup-button-influencer-white{
     width: 300px;
     padding: 5px 50px;
+    top: 550px;
   }
-  .title-company{
-    font-size: 18px;
-  }
-
-  .three-explain{
-    display: none;
-  }
-  .company-explain-img{
-    display: none;
-  }
-  .signup-button-company{
+  .signup-button-influencer{
     width: 300px;
     padding: 5px 50px;
+    margin-bottom: 200px;
   }
-  .container-company{
-    padding: 150px 50px;
+  .event-explain{
+    margin-bottom: 200px;
   }
-  .friend-data-wrapper{
-    padding: 100px 50px;
-    margin-bottom: 100px;
-  }
-  .post-wrapper{
-    padding: 150px 60px;
-  }
-  .company-explain{
-    font-size: 12px;
-  }
-  .link-top{
-    font-size: 12px;
-  }
-  .three-img{
-    display: block;
-  }
-  .friend-data{
-    display: none;
-  }
-  .friend-data-ios{
-    display: block;
-    padding-top: 50px;
-    width: 60%;
-    margin: 0 auto;
-  }
-  .friend-explain{
-    font-size: 12px;
-  }
-  .fee-explain{
-    font-size: 12px;
-  }
-  .fee-wrapper{
-    margin-bottom: 100px;
-  }
-  .fee-three{
-    display: none;
-  }
-  .fee-three-ios{
-    display: block;
-    width: 30%;
-    margin: 50px auto;
-  }
-  .fee-table{
-    width: 90%;
-  }
-  .post-explain{
-    font-size: 13px;
+  .open-button-white{
+    margin-top: 5px;
   }
 }

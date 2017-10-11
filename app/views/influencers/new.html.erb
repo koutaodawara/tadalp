@@ -1,0 +1,78 @@
+<header>
+  <div class="container-top-influencer">
+    <%= link_to image_tag("TADAGENIC-white.png", { class: "logo-img-white" }), tops_path %>
+    <%= image_tag "open-button-white", class: "open-button" %>
+  <div class="header-right-white">
+    <li><%= link_to "事前登録をする", tops_path%></li>
+    <li><%=link_to "会社情報", about_tops_path%></li>
+    <li><%= link_to "企業の方はこちら", companies_path %></li>
+    <li><%= link_to "インフルエンサーの方はこちら", influencers_path %></li>
+  </div>
+  <%= form_for (@influencer) do |f| %>
+    <%= f.text_field :name, class: 'influencer-form', placeholder: '名前' %>
+    <%= f.text_field :email, class: 'influencer-form', placeholder: 'メールアドレス'%>
+    <%= f.text_field :age, class: 'influencer-form', placeholder: '年齢'%>
+    <%= f.text_field :insta, class: 'influencer-form', placeholder: 'インスタグラムID'%>
+    <%= f.submit '登録', class: 'influencer-form-submit'%>
+  <% end %>
+</div>
+  <div class="container-top-influencer-ios">
+    <%= link_to image_tag("TADAGENIC-white.png", { class: "logo-img-white" }), tops_path %>
+    <%= image_tag "open-button-white", class: "open-button open-button-white" %>
+    <%= form_for (@influencer) do |f| %>
+    <%= f.text_field :name, class: 'influencer-form', placeholder: '名前' %>
+    <%= f.text_field :email, class: 'influencer-form', placeholder: 'メールアドレス'%>
+    <%= f.text_field :age, class: 'influencer-form', placeholder: '年齢'%>
+    <%= f.text_field :insta, class: 'influencer-form', placeholder: 'インスタグラムID'%>
+    <%= f.submit '登録', class: 'influencer-form-submit'%>
+  <% end %>
+  </div>
+</header>
+<article>
+  <div class="container-influencer">
+    <div class="title-influencer">
+      TADAGENICとは？
+    </div>
+    <div class="explain-influencer explain-influencer-top">
+      TADAGENICはタダでフォトジェニックな商品が<br />
+      もらえるアプリです。詳しくは<span><%= link_to "こちら", tops_path %></span>をご覧下さい。
+    </div>
+    <div class="link-top-influencer">
+      「TADAGENIC」の説明は<span><%= link_to "こちら", tops_path %></span>
+    </div>
+    <div class="title-influencer">
+      キャスティング
+    </div>
+    <div class="explain-influencer">
+      TADAGENICではインフルエンサーの方向けで<br />
+      モバイルアプリでは賄えないメディア等への<br />
+      出演やPR投稿の案件のキャスティングも<br />
+      行っています。
+    </div>
+    <div class="title-influencer">
+      商品企画
+    </div>
+    <div class="explain-influencer">
+      TADAGENICではデータを生かした商品企画<br />
+      を行います。商品企画に参加頂くと<br />
+      報酬をお支払い致します。自社ブランドを<br />
+      立ち上げる、または立ち上げておられる<br />
+      方にとってはプロと一緒に商品を企画する<br />
+      非常に良い経験となります。<br />
+      報酬の詳細はご相談頂く事が可能です。
+    </div>
+    <div class="title-influencer">
+      イベント
+    </div>
+    <div class="explain-influencer event-explain">
+      TADAGENICではユーザーやインフルエンサー<br />
+      の方をお呼びするフォトジェニックなイベント<br />
+      を開催します。こちらも参加頂くと<br />
+      報酬をお支払い致します。報酬の詳細は<br />
+      ご相談頂く事が可能です。
+    </div>
+    <div class="signup-button-influencer">
+      登録する
+    </div>
+  </div>
+</article>

@@ -5,13 +5,14 @@
 
 <body>
 <header>
-    <%= image_tag "TADAGENIC.png", class: "logo-img" %>
-  <div class="header-right">
-    <li><%= link_to "事前登録をする", tops_path%></li>
-    <li><%=link_to "会社情報", about_tops_path%></li>
-    <li>企業の方はこちら</li>
-    <li>インフルエンサーの方はこちら</li>
-  </div>
+    <%= image_tag "menu.png", class: "open-button" %>
+    <%= link_to image_tag("TADAGENIC.png", { class: "logo-img" }), tops_path %>
+    <div class="header-right">
+      <li><%= link_to "事前登録をする", tops_path%></li>
+      <li><%=link_to "会社情報", about_tops_path%></li>
+      <li><%= link_to "企業の方はこちら", companies_path %></li>
+      <li><%= link_to "インフルエンサーの方はこちら", influencers_path %></li>
+    </div>
 </header>
 
 <article>
@@ -101,16 +102,12 @@
            </div>
            <div class="clear"></div>
          </div>
-         <%=image_tag "pre-signup-button-web.png", class: "pre-signup-button-web"%>
-         <%=image_tag "pre-signup-button-ipad.png", class: "pre-signup-button-ipad"%>
-         <%=image_tag "pre-signup-button.png", class: "pre-signup-button"%>
+         <%= link_to image_tag("pre-signup-button-web.png", { class: "pre-signup-button-web" }), new_top_path %>
+         <%= link_to image_tag("pre-signup-button-ipad.png", { class: "pre-signup-button-ipad" }), new_top_path %>
+         <%= link_to image_tag("pre-signup-button.png", { class: "pre-signup-button" }), new_top_path %>
        </div>
     </div>
 </article>
-
-<footer>
-
-</footer>
 
 </body>
 </html>

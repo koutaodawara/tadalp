@@ -5,23 +5,17 @@
 
 <body>
 <header>
-    <%= image_tag "TADAGENIC.png", class: "logo-img" %>
-    <div class="menu-button">
-        <%= image_tag "menu.png", class: "open-button" %>
-      <div class="close-button">
-      ×
-      </div>
+    <%= image_tag "menu.png", class: "open-button" %>
+    <%= link_to image_tag("TADAGENIC.png", { class: "logo-img" }), tops_path %>
+    <div class="header-right">
+      <li><%= link_to "事前登録をする", tops_path%></li>
+      <li><%=link_to "会社情報", about_tops_path%></li>
+      <li><%= link_to "企業の方はこちら", companies_path %></li>
+      <li><%= link_to "インフルエンサーの方はこちら", influencers_path %></li>
     </div>
-  <div class="header-right">
-    <li><%= link_to "事前登録をする", tops_path%></li>
-    <li><%=link_to "会社情報", about_tops_path%></li>
-    <li>企業の方はこちら</li>
-    <li>インフルエンサーの方はこちら</li>
-  </div>
 </header>
 
 <article>
-  
   <div class = "top-wrapper">
     <div class="container-top">
       <%= image_tag "top-img.png", class: 'main-img' %>

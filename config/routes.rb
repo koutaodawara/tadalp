@@ -3,8 +3,9 @@ Rails.application.routes.draw do
   resources :tops, only: [:index, :new, :create] do
     collection do
       get :about
-      get :company
-      get :influencer
     end
   end
+
+  resources :companies, only: [:index, :new, :create]
+  resources :influencers, only: [:index, :new, :create]
 end

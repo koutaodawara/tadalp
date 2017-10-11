@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20171010225404) do
     t.string   "staff"
     t.string   "mail"
     t.string   "phone_number"
+    t.string   "site_url"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
   end

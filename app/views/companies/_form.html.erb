@@ -1,0 +1,6 @@
+<%= form_for (@company) do |f| %>
+  <%= f.text_field :company_name, class: 'company-form', placeholder: '会社名前' %>
+  <%= f.text_field :mail, class: 'company-form', placeholder: 'メールアドレス'%>
+  <%= f.text_field :staff, class: 'company-form', placeholder: '担当者名'%>
+  <%= f.submit '登録', class: 'company-form-submit'%>
+<% end %>

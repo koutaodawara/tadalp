@@ -388,7 +388,7 @@ padding:0 20px;
    z-index: 3;
   }
  .menu-bar{
-   background-color: #ffffff;
+   opacity: 0.9;
    position:fixed;
    right: 0;
    display: none;
@@ -397,16 +397,18 @@ padding:0 20px;
    height: 100%;
  }
  .menu-title{
+   opacity: 0.9;
    color: #000000;
    font-family:"SignPainter",sans-serif;
    padding: 60px 0 60px 0;
    text-align: center;
    font-size: 50px;
+   background: rgba(0,0,0,0.5);
  }
  .menu-bar li{
    font-size: 25px;
    margin: 10px 30px 40px 30px;
-   border-bottom: 1px solid #999999
+   border-bottom: 1px solid #999999;
  }
   .container{
     padding:0 50px;
@@ -987,6 +989,52 @@ width: 100%;
   font-weight: bold;
   position: relative;
   top: 550px;
+  display: block;
+}
+.signup-button-company-white:hover{
+  color: #777;
+  background:#eaeaea;
+}
+.company-form{
+  background-color: transparent;
+  text-align: center;
+  padding: 15px 70px;
+  color: white;
+  border: 2px solid #ffffff;
+  width: 450px;
+  font-size: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-weight: bold;
+  position: relative;
+  top: 400px;
+  border-radius: 60px;
+  display: block;
+}
+.company-form-submit{
+  background-color: transparent;
+  text-align: center;
+  padding: 10px 100px;
+  border: 2px solid #ffffff;
+  width: 570px;
+  font-size: 15px;
+  margin: 0 auto;
+  margin-top: 5px;
+  font-weight: bold;
+  position: relative;
+  top: 450px;
+  border-radius: 60px;
+  display: block;
+  color: white;
+}
+
+.company-form-submit:hover{
+  color: #777;
+  background:#eaeaea;
+}
+
+.company-form::-webkit-input-placeholder{
+  color: white;
 }
 
 .container-top-company{
@@ -1248,6 +1296,45 @@ width: 100%;
     width: 300px;
     padding: 5px 50px;
   }
+  .company-form{
+  background-color: transparent;
+  text-align: center;
+  padding: 5px 50px;
+  border: 2px solid #ffffff;
+  width: 300px;
+  font-size: 15px;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-weight: bold;
+  position: relative;
+  top: 400px;
+  border-radius: 60px;
+  display: block;
+}
+.company-form-submit{
+  background-color: transparent;
+  text-align: center;
+  padding: 5px 50px;
+  border: 2px solid #ffffff;
+  width: 300px;
+  font-size: 15px;
+  margin: 0 auto;
+  font-weight: bold;
+  position: relative;
+  top: 430px;
+  border-radius: 60px;
+  display: block;
+  color: white;
+}
+
+.company-form-submit:hover{
+  color: #777;
+  background:#eaeaea;
+}
+
+.company-form::-webkit-input-placeholder{
+  color: white;
+}
   .container-company{
     padding: 150px 50px;
   }
@@ -1324,6 +1411,56 @@ width: 100%;
   font-weight: bold;
   position: relative;
   top: 550px;
+  display: block;
+}
+
+.signup-button-influencer-white:hover{
+  color: #777;
+  background:#eaeaea;
+}
+
+.influencer-form{
+  background-color: transparent;
+  text-align: center;
+  padding: 5px 50px;
+  color: white;
+  border: 2px solid #ffffff;
+  width: 450px;
+  font-size: 15px;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-weight: bold;
+  position: relative;
+  top: 400px;
+  border-radius: 60px;
+  display: block;
+}
+
+.influencer-form-submit{
+  background-color: transparent;
+  text-align: center;
+  padding: 10px 50px;
+  color: white;
+  border: 2px solid #ffffff;
+  width: 600px;
+  font-size: 15px;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-weight: bold;
+  position: relative;
+  top: 430px;
+  border-radius: 60px;
+  display: block;
+}
+.influencer-form-submit:hover{
+  color: #777;
+  background:#eaeaea;
+}
+.influencer-form::-webkit-input-placeholder{
+  color: white;
+}
+.influencer-form-submit::-webkit-input-placeholder{
+  color: white;
 }
 .title-influencer{
   font-family: 'ヒラギノ角ゴ Std','Hiragino Kaku Gothic Std', sans-serif;
@@ -1405,6 +1542,47 @@ width: 100%;
     padding: 5px 50px;
     margin-bottom: 200px;
   }
+
+  .influencer-form{
+  background-color: transparent;
+  text-align: center;
+  padding: 5px 50px;
+  border: 2px solid #ffffff;
+  width: 300px;
+  font-size: 15px;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-weight: bold;
+  position: relative;
+  top: 400px;
+  border-radius: 60px;
+  display: block;
+}
+
+.influencer-form-submit{
+  background-color: transparent;
+  text-align: center;
+  padding: 5px 50px;
+  border: 2px solid #ffffff;
+  width: 300px;
+  font-size: 15px;
+  margin: 0 auto;
+  font-weight: bold;
+  position: relative;
+  top: 425px;
+  border-radius: 60px;
+  display: block;
+}
+.influencer-form-submit:hover{
+  color: #777;
+  background:#eaeaea;
+}
+.influencer-form::-webkit-input-placeholder{
+  color: white;
+}
+.influencer-form-submit::-webkit-input-placeholder{
+  color: white;
+}
   .event-explain{
     margin-bottom: 200px;
   }

@@ -12,9 +12,13 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.turbolinks
 //= require turbolinks
 //= require_tree .
-$(function(){
+
+
+$(document).on('turbolinks:load', function() {
+  $(function(){
 
   //テキストリンクをクリックしたら
  $(".open-button").click(function(){
@@ -36,3 +40,4 @@ $(function(){
         });
       });
     });
+});

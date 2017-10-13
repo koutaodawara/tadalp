@@ -2,7 +2,7 @@
 <header>
   <div class="container-top-company">
     <%= link_to image_tag("TADAGENIC-white.png", { class: "logo-img-white" }), tops_path %>
-    <%= image_tag "open-button-white", class: "open-button", alt: ""%>
+    <%= image_tag "open-button-white.svg", class: "open-button"%>
   <div class="header-right-white">
     <li><%= link_to "事前登録をする", tops_path%></li>
     <li><%=link_to "会社情報", about_tops_path%></li>
@@ -13,7 +13,7 @@
 </div>
   <div class="container-top-company-ios">
     <%= link_to image_tag("TADAGENIC-white.png", { class: "logo-img-white" }), tops_path %>
-    <%= image_tag "open-button-white", class: "open-button open-button-white" %>
+    <%= image_tag "open-button-white.svg", class: "open-button open-button-white" %>
     <%= link_to "登録する",  new_company_path, class: "signup-button-company-white", remote: true %>
   </div>
 </header>

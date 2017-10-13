@@ -12,7 +12,7 @@
     <meta property="og:site_name" content= 'タダでフォトジェニックな商品がもらえる「TADAGENIC」'/>
     <meta property="og:title" content="TADAGENIC" />
     <meta property="og:url" content="http://tadagenic.com" />
-    <meta name="author" content="TADAGENIC運営チーム" />
+    <meta name="author" content="株式会社TADAGENIC" />
     <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=0.5,user-scalable=yes,initial-scale=1.0" />
     <meta name="google-site-verification" content="siD2PCV_vfLd24WkOHSGWRxfg8Q4FO87cakvg4h0IlU" />
     <%= analytics_init if Rails.env.production? %>
@@ -25,6 +25,35 @@
     <% flash.each do |key, value| %>
       <%= content_tag(:div, value, class: "flash-message-#{key}") %>
     <% end %>
+    <div class="menu-bar">
+        <div class="close-button">
+        ×
+        </div>
+    <div class="menu-title">MENU</div>
+      <li><%= link_to "事前登録をする", tops_path%></li>
+      <li><%=link_to "会社情報", about_tops_path%></li>
+      <li><%= link_to "企業の方はこちら", companies_path %></li>
+      <li><%= link_to "インフルエンサーの方はこちら", influencers_path %></li>
+    </div>
     <%= yield %>
+    <footer>
+      <div class="border">
+      </div>
+        <%= image_tag "TADAGENIC.png", class: "footer-logo" %>
+        <div class="footer-link-1">
+          <li><%= link_to "事前登録をする", tops_path%></li>
+          <li class="br-2"><%=link_to "会社情報", about_tops_path%></li>
+        </div>
+        <div class="clear"></div>
+        <br/>
+        <div class="footer-link-2">
+          <li><%=link_to "企業の方はこちら", companies_path%></li>
+          <li><%=link_to "インフルエンサーの方はこちら", influencers_path%></li>
+        </div>
+        <div class="clear"></div>
+        <div class="tadagenicInc">
+          ©️TADAGENIC Inc.
+        </div>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,5 @@
+<%= form_for (@influencer) do |f| %>
+<%= f.text_field :name, class: 'influencer-form', placeholder: '名前' %>
+<%= f.text_field :insta, class: 'influencer-form', placeholder: 'InstagramアカウントID'%>
+<%= f.submit '登録', class: 'influencer-form-submit'%>
+<% end %>

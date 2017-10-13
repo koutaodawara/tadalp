@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-1394 546.449 268 893.551">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#pattern);
+      }
+
+      .cls-2 {
+        font-size: 18px;
+        font-family: HelveticaNeue-Bold, Helvetica Neue;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        font-family: HiraginoSans-W6, Hiragino Sans;
+        font-weight: 400;
+      }
+
+      .cls-4 {
+        font-size: 12px;
+        font-family: HiraginoSans-W3, Hiragino Sans;
+      }
+
+      .cls-5 {
+        font-family: HelveticaNeue, Helvetica Neue;
+      }
+
+      .cls-6 {
+        fill: url(#pattern-2);
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 64 64">
+      <image width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAXlJREFUeJztmztOw1AQRY/DL6tIidxANsEK2ARsKKDULABBzWcZKDU9ikQojESgcFIGPxLbx8hzpOn8OXP99OxiDCXnwCvw3YNaAPdAvuqdM+CrA2Jt1xzI94AbYET/GAKjDPgEDmQZi0VGuRx6y8AWsIkAbAGb/YRjssYtmuXXPa73KyACsAVsIgBbwCYCsAVsIgBbwCYCsAVsIgBbwCYCsAVsIgBbwCYCsAVsIgBbwCYCsAVsIgBbwCYCsAVsIgBbwCYCsAVsYkbIFrCJAGwBmwHwYUuILAbAk20h8gDl1PQcf3i57XoDjtdJ5MAd5Si5LdZ0vQO36+bbmAHc9TujUcd4C9gCNhGALWATAdgCNhHAFueMgWtgBhRUf3jsStX1i5XLFXBaw/02MgSmwDJByqolMAGOmmj+uQMNptbjyrk2ph1o6q81qav5Md1e9ptqCZxUNZeyCV7yP3+cyoCLOi40w3+a29ZLVXMpT7YADhOO6yIFFZvhDzEJ9P9O2ToKAAAAAElFTkSuQmCC"/>
+    </pattern>
+    <pattern id="pattern-2" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 64 64">
+      <image width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAA1pJREFUeJztmstLVVEUh797NRN7YZp1yzKi1LyR0GsShDauQTQIIuh/iB40alCNjSKIBkVhNAoaFDTqQVFQAyspQ3tJEJXdBpVoatRgn5NyUTx7n3XWvjfvBwvEx1q/3/Lsffc+e6fQZT2wG9gKtAALg+/ngB7gAXAN6FbWlTjbgfvAn4hxD2jzIVSaBcBVohvPj05gvrpqIZqA17ibD6MPWKOsPTbrgC/ENx/GJ2CtqoMYLAM+IGc+jH4go+jDiTLsJjvbuAuktcy4cJTkzIdxSM2NJSuAQZJvwA/MMCs4zpO8+TDOKnmKTAb4hV4DhoE6CeFSE8p+oEIoVxRmBzULhm70/vthPFNxFoGV6JsPY3lc8RJDoF0ghyttcRNINGCTQA5XNsdNINGAFoEc3mpLNKBBIIe32hINqBXI4a12SkDEKFAukMe1dqz1R0HvrDSQaMCQQA5XBuMmkGjAgEAOV77GTSDRgH6BHK68j5tAogE9Ajm81ZZowBOBHK489lj7Hw342wzVK/iLxHP0zXdJCJdaB1wRymNDp4eaU7IE3VdiQ8AiFWcWnEOvAWeUPFlRD/wkefPfgaVKnqw5QvINOKDmxoEyzNl+UuZvUwQbuAxmeSxt/h1msi0KWjBH2lLmP2LuGxQVq4Fe4pt/BaxS1i7GPOAy7uYvAnPVVSdAG3AHu8lum4YwiXeCNmQZvyaXBWqC7+eAF4xfk3uprCsS1cA+zGP5FPgG3ARmedRUAdwKtHQBFzAaqyWLNAGXMOvvyR7X6+ieDIdUAjem0DSMmXua4xSYA3QAY1MUyR+zol2fhlqi3UUaA07jMJE2YsahzYz9Btjo7ikyWzCLIhttPVg8DRswb1tdPrZGgGMkMyQqgeOYwxAXbTkiHOQ24m5+YvQBe5BZt6eBvcBbAV25wOOkVGH/2E8XvZjd22IH4xngIDLXbfOHQ9VkBTuEC02M38BD4ASwC7MGqMacKZYHX2eDn50EHgV/k5SeU/nmm3EfW8UYowSbq3CMHsbfCa8PyjEvb0hh7uN/xsyyM4lhoC4N7GTmmQfjeUcav7e8fNOeBlp9q/BIawqz8KmZ7jf/UwZSmOWrzy2tT0ZSmM/FGUvBv2NPmlIDfAvwTakBvgX4ptQA3wJ88xem5mwlRuObOwAAAABJRU5ErkJggg=="/>
+    </pattern>
+  </defs>
+  <g id="グループ化_91" data-name="グループ化 91" transform="translate(-1448 -470)">
+    <path id="monitor-8x" class="cls-1" d="M0,0H67.551V67.551H0Z" transform="translate(153.854 1016.449)"/>
+    <text id="_1.オンラインで完結" data-name="1.オンラインで完結" class="cls-2" transform="translate(188 1133)"><tspan x="-79.506" y="0">1.</tspan><tspan class="cls-3" y="0">オンラインで完結</tspan></text>
+    <text id="登録から管理まで_発送以外の全てをオンラインで_完結することができます_" data-name="登録から管理まで
+発送以外の全てをオンラインで
+完結することができます。" class="cls-4" transform="translate(188 1156)"><tspan x="-48" y="0">登録から管理まで</tspan><tspan class="cls-5" y="0"></tspan><tspan x="-84" y="20">発送以外の全てをオンラインで</tspan><tspan class="cls-5" y="20"></tspan><tspan x="-71.4" y="40">完結することができます。</tspan></text>
+    <image id="target-8x" width="47" height="47" transform="translate(146 1295)" xlink:href="data:image/png;base64,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"/>
+    <path id="person-8x" class="cls-6" d="M0,0H47V47H0Z" transform="translate(182 1319)"/>
+    <text id="_2.圧倒的なコストパフォーマンス" data-name="2.圧倒的なコストパフォーマンス" class="cls-2" transform="translate(188 1415)"><tspan x="-133.236" y="0">2.</tspan><tspan class="cls-3" y="0">圧倒的なコストパフォーマンス</tspan></text>
+    <text id="平均単価は通常のインフルエンサー_マーケティングの半額程度です_さらに一般ユーザーのエンゲージメント_はインフルエンサーの約_倍です_少ない予算で高い効果を生み出し_圧倒的なコストパフォーマンス_で提供します_" data-name="平均単価は通常のインフルエンサー
+マーケティングの半額程度です。
+さらに一般ユーザーのエンゲージメント
+はインフルエンサーの約５倍です。
+少ない予算で高い効果を生み出し
+圧倒的なコストパフォーマンス
+で提供します。
+" class="cls-4" transform="translate(188 1438)"><tspan x="-95.64" y="0">平均単価は通常のインフルエンサー</tspan><tspan class="cls-5" y="0"></tspan><tspan x="-88.98" y="20">マーケティングの半額程度です。</tspan><tspan class="cls-5" y="20"></tspan><tspan x="-106.98" y="40">さらに一般ユーザーのエンゲージメント</tspan><tspan class="cls-5" y="40"></tspan><tspan x="-95.04" y="60">はインフルエンサーの約５倍です。</tspan><tspan class="cls-5" y="60"></tspan><tspan x="-90" y="80">少ない予算で高い効果を生み出し</tspan><tspan class="cls-5" y="80"></tspan><tspan x="-83.58" y="100">圧倒的なコストパフォーマンス</tspan><tspan class="cls-5" y="100"></tspan><tspan x="-41.4" y="120">で提供します。</tspan><tspan class="cls-5" y="120"></tspan><tspan class="cls-5"><tspan x="0" y="140"></tspan></tspan></text>
+    <image id="pie-chart-8x" width="41" height="41" transform="translate(148 1679)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAA8JJREFUeJzl20mIXEUcx/HPLI5riMYdJbgQFzCuuBBF8KRIBEEPQvDoxYUIehAUfeJRUPHm2YuIF8GDhyCRAWUEF0SRyMQQUUJGHR0jSCBJeah+2k5m5r3qt/Xyhbp1V/1+v6l5r+pf1VPqZw634XbcgG24BFtwOqZxFCs4jOsb0NA6c3gY7+EIQkIbac7HK1iSZnrkAzgDL0v/a49FAPfioOrGRy6AObypPuMjFcAF+ET95kcigMuxXzPmOw9gusRnHsQVTQvZgN24G5s61CDT3QzIP3cM83hOnJWtk+k2gP52Ah/hIUzV4K002TqC2g6gv30jrkJbIyshqs0A8rYH11S3V44sQVhbAQT8jcer2ytHliiujQDy9q6482ycbECBTQcQ8Km4WWucrILIJgMI4gPyvMoOS5BVEFlE1Rn2BTZXdliCbECBRVQNIOAD5Va9/+MBcbGRsgTNBhBXRB0BBLFwU5o7xVdK/jBJmUJZorAi6grgGO4oY+BSJ5e4PsPZZb7cI0sQVkRdAQTsw6kbDTaFvet8+XOxsluWrKSoIuoMIOCZjQZ7ouDLX0l7rWQlBBVRdwDLOGetgc7F7yU6+FraAiMr6K+IugMI4pb6JF5N6OBbXFjOPzYOoYgmAvgJp/QPsll6ifs7XFxDCF0EEMTX/L88OWAn34vHXlVC6CqAt/sHWajQ0SK2VgihqwD+wAxxGp+o2NkBXDZgCF0FEHAz7Kqps4PSqsd5CF0GsHtWPMaug634GPeI/xZFZDWNW4XtxA1Pnan+jKtrFNnkDNgLPzTQ8SFcOwIBHKCeI+612mFcN+QB/AbHGxzgF9WuwJzWcABHifvkJgf5FTcNaP7DNgL4s+FBgrgDu2jIzOcztNGj77y9MITmg/gCsGdCzQe91+AbE2o+4C14ZELNBzxNvP9TdTM0iuYDbslFzE+g+WV9hyWPTZj5gHf6xZzZS2RSzAfsXC0qmyDzS5hdLWyTuIEZd/MBL64n8NEJML+i4Jjv/TE2H/BSkdgtYqFgHM3v7+kpZLtYNh4n8wH3JWh3F/4aI/Ovp5jP2eG/9cEom1+w6iwwhW3isXlZhs38orSD3EoMm/lDuLJRx30Mm/lFLZqH5xswMWhb0OK0z5kWH5RNV5mL2msqPPDq4FbxGk0XUz7pPd8ks3hKLDs3bXxFXN6WWuG1zVl4Fj+q3/iSuKtLub/YGTO4X7yWUqXwsixWcnZaYz8/CK3+4KjHjHgzYwduxFXi7dT85/XHxdOqI+LM2SdeyJrHl2IBtzb+ASoNq+6E7UdcAAAAAElFTkSuQmCC"/>
+    <image id="spreadsheet-8x" width="41" height="41" transform="translate(186 1716)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAATZJREFUeJztm7FKxEAURU+yxspWcMHPsxH1a/wC/RqVZbfQr7AVdtdKi1kVtjAWOic498CrksCZO5MQHjz4YgAugDvgBXj7Z7UFFsAVcMge891FW7JWrXZrBsrOt7T4j1oCwww4B85ojznwPAOugVNZxuK4o3zwjmwTiU1HeR+apbcFbA5+cE83cn3sBI09/9d869f8CUgAtoBNArAFbBKALWCTP0FbwCYB2AI2CcAWsEkAtoBN+gG1LKZKArAFbBKALWCTAGwBm/QDbAGbBGAL2CQAW8AmAdgCNukH1LKYKgnAFrBJALaATQKwBWzSD7AFbHrg1ZYQ2fTAk20h8tgDN7aFyC2UAaIV/ghL7VpQxoWAMj6ynIBUzcWfsMcAXAIPwHoCkr9da+CeMhr4ufMhhBBCaJd3jk12J5B0RdMAAAAASUVORK5CYII="/>
+    <text id="_3.濃密なデータの提供" data-name="3.濃密なデータの提供" class="cls-2" transform="translate(188 1806)"><tspan x="-88.506" y="0">3.</tspan><tspan class="cls-3" y="0">濃密なデータの提供</tspan></text>
+    <text id="インフルエンサーから一般ユーザー_まで幅広い層に商品を提供する_ことで_他者では真似できない_かなり濃密な行動データを提供する_ことができます_" data-name="インフルエンサーから一般ユーザー
+まで幅広い層に商品を提供する
+ことで、他者では真似できない
+かなり濃密な行動データを提供する
+ことができます。" class="cls-4" transform="translate(188 1829)"><tspan x="-95.28" y="0">インフルエンサーから一般ユーザー</tspan><tspan class="cls-5" y="0"></tspan><tspan x="-84" y="20">まで幅広い層に商品を提供する</tspan><tspan class="cls-5" y="20"></tspan><tspan x="-83.7" y="40">ことで、他者では真似できない</tspan><tspan class="cls-5" y="40"></tspan><tspan x="-96" y="60">かなり濃密な行動データを提供する</tspan><tspan class="cls-5" y="60"></tspan><tspan x="-47.4" y="80">ことができます。</tspan></text>
+  </g>
+</svg>

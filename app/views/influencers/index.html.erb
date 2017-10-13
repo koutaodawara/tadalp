@@ -1,0 +1,22 @@
+<div class='influencer-top'>
+  <header>
+    <div class="container-top-influencer">
+      <%= link_to image_tag("TADAGENIC-white.png", { class: "logo-img-white" }), tops_path %>
+      <%= image_tag "open-button-white", class: "open-button" %>
+    <div class="header-right-white">
+      <li><%= link_to "事前登録をする", tops_path%></li>
+      <li><%=link_to "会社情報", about_tops_path%></li>
+      <li><%= link_to "企業の方はこちら", companies_path %></li>
+      <li><%= link_to "インフルエンサーの方はこちら", influencers_path %></li>
+    </div>
+    <%= link_to "登録する", new_influencer_path, class: "signup-button-influencer-white", remote: true %>
+  </div>
+    <div class="container-top-influencer-ios">
+      <%= link_to image_tag("TADAGENIC-white.png", { class: "logo-img-white" }), tops_path %>
+      <%= image_tag "open-button-white", class: "open-button open-button-white" %>
+      <%= link_to "登録する", new_influencer_path, class: "signup-button-influencer-white", remote: true %>
+    </div>
+  </header>
+
+  <%= render 'body'%>
+</div>

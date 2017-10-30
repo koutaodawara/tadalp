@@ -8,4 +8,6 @@ Rails.application.routes.draw do
 
   resources :companies, only: [:index, :new, :create]
   resources :influencers, only: [:index, :new, :create]
+
+  get 'privacy' => 'privacy#index'
 end
